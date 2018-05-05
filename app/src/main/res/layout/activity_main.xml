@@ -10,49 +10,72 @@
     <Button
         android:layout_width="140dp"
         android:layout_height="100dp"
-        android:background="#80000000"
+        android:background="@drawable/button_for_namaz"
+        android:textColor="#fafafa"
+        android:textSize="29dp"
+        android:textStyle="italic"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
         android:layout_marginStart="23dp"
         android:layout_marginTop="90dp"
-        android:text="Fozor" />
+        android:text="ফজর"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="23dp" />
 
     <Button
         android:layout_width="140dp"
         android:layout_height="100dp"
-        android:background="#80000000"
+        android:background="@drawable/button_for_namaz"
+        android:textColor="#fafafa"
+        android:textSize="29dp"
+        android:textStyle="italic"
         android:layout_alignParentEnd="true"
         android:layout_alignParentTop="true"
         android:layout_marginEnd="23dp"
         android:layout_marginTop="90dp"
-        android:text="Zohor" />
+        android:text="জোহর"
+        android:layout_marginRight="23dp"
+        android:layout_alignParentRight="true" />
 
     <Button
         android:layout_width="140dp"
         android:layout_height="100dp"
-        android:background="#80000000"
+        android:background="@drawable/button_for_namaz"
+        android:textColor="#fafafa"
+        android:textSize="29dp"
+        android:textStyle="italic"
         android:layout_alignParentStart="true"
         android:layout_centerVertical="true"
         android:layout_marginStart="23dp"
-        android:text="Ashor" />
+        android:text="আছর"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="23dp" />
 
     <Button
         android:layout_width="140dp"
         android:layout_height="100dp"
-        android:background="#80000000"
+        android:background="@drawable/button_for_namaz"
+        android:textColor="#ffffff"
+        android:textSize="29dp"
+        android:textStyle="italic"
         android:layout_alignParentEnd="true"
         android:layout_centerVertical="true"
         android:layout_marginEnd="23dp"
-        android:text="Magrib" />
+        android:text="মাগরীব"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="23dp" />
 
     <Button
         android:layout_width="140dp"
         android:layout_height="100dp"
-        android:background="#80000000"
+        android:background="@drawable/button_for_namaz"
+        android:textColor="#fafafa"
+        android:textSize="29dp"
+        android:textStyle="italic"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="85dp"
-        android:text="Esha" />
+        android:text="এশা" />
 
 
 </RelativeLayout>

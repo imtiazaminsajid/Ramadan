@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/tashbih2"
+    >
+
+    <TextView
+        android:id="@+id/tasbih_porun"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="85dp"
+        android:text="তসবিহ পড়ুন"
+        android:textColor="#09da95"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/counting_number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="140dp"
+
+        android:text="৫০"
+        android:textColor="#09da95"
+        android:textSize="120dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/increase"
+        android:layout_width="100dp"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="123dp"
+        android:layout_marginStart="72dp"
+        android:background="#09da95"
+        android:text="কমান"
+        android:textColor="#ffffff"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/decrease"
+        android:layout_width="100dp"
+        android:layout_height="60dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/increase"
+        android:layout_marginEnd="72dp"
+        android:background="#09da95"
+        android:text="বাড়ান"
+        android:textColor="#ffffff"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+
+</RelativeLayout>

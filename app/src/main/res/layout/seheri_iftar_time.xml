@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@drawable/iftar_seheri_time_image"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:background="@drawable/button_for_namaz"
+        android:layout_width="240dp"
+        android:layout_height="160dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="42dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center"
+            android:text="ঢাকা"
+            android:textColor="#ffffff"
+            android:textSize="30dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/seheri"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/seheri_time"
+            android:layout_alignTop="@+id/iftar"
+            android:text="সেহেরী"
+            android:textColor="#ffffff"
+            android:textSize="25dp"
+            android:layout_alignLeft="@+id/seheri_time" />
+
+        <TextView
+            android:id="@+id/iftar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/iftar_time"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="30dp"
+            android:text="ইফতার"
+            android:textColor="#ffffff"
+            android:textSize="25dp"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="30dp" />
+
+        <TextView
+            android:id="@+id/iftar_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="26dp"
+            android:text="৬ঃ৪০মিনিট"
+            android:textColor="#ffffff"
+            android:textSize="18dp"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="26dp" />
+
+        <TextView
+            android:id="@+id/seheri_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="29dp"
+            android:text="৫ঃ২৯মিনিট"
+            android:textColor="#ffffff"
+            android:textSize="18dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="29dp" />
+
+        <TextView
+            android:id="@+id/next_day_seheri"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="34dp"
+            android:textSize="15dp"
+            android:text="আগামী কাল সেহেরী"
+            android:textColor="#e4d3d3" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/next_day_seheri"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="-34dp"
+            android:text="৫ঃ৩০মিনিট"
+            android:textColor="#e4d3d3"
+            android:textSize="15dp" />
+
+    </RelativeLayout>
+
+
+
+</RelativeLayout>
